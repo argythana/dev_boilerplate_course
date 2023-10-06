@@ -1,4 +1,4 @@
-Before the lecture:
+## Before the lecture:
 
 Download and install git from [the official page](https://git-scm.com/)
 
@@ -8,7 +8,7 @@ Download and install github desktop
 The source code for Git refers to the program as "the information manager from hell" (from wikipedia)
 
 
-In the lecture, goals for learning.
+## In the lecture, goals for learning.
 
 My main points for using git:
 a) version control,
@@ -22,7 +22,7 @@ The advantages of git: https://git-scm.com/about
 Main lecture goal: 
 Create a new repo, make some commits to it, publish it on github.
 
-Use commands:
+## Use commands:
 git init
 git status
 git diff
@@ -32,6 +32,7 @@ git commit -m "Consice and explanatory message."
 git push (publish to github)
 
 modify file
+
 git status
 git diff
 git add
@@ -47,13 +48,14 @@ git checkout branch_name
 show gitk
 show git-gui
 
-Understand the meaning of what happens when working on a branch.
+## Understand the meaning of what happens when working on a branch.
 "The working tree and the index are updated to match the branch. All new commits will be added to the tip of this branch."
 
-Demonstrate using windows explorer and switching branch, gitgwhy git works as a "multidimensional parallel universe" (tm) for your files. 
+## Demonstrate using windows explorer and switching branch, gitgwhy git works as a "multidimensional parallel universe" (tm) for your files. 
 
-After the lecture:
-For studying:
+## After the lecture:
+
+### For studying:
 1) Read and try the commands you learned form the official git documentation: https://git-scm.com/doc
 For example search in the official site: "git commit" https://git-scm.com/docs/git-commit
 Even better: use the --help command.
@@ -74,7 +76,7 @@ Create some test repos, make changes, add changes, commit, push,.
 
 
 
-Tasks to absolutely do for succesful completion of the course:
+### Tasks to absolutely do for succesful completion of the course:
 1) After I invite you: Fork my repo locally on your PC. Do this inside a folder called "dev_boilerplate_course"
 
 2) create a new_branch with your your_firstname_lastname_abbrev (use a 4 to 8 letters abbreviation, e.g. thanarg).
