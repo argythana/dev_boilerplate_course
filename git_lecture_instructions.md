@@ -23,17 +23,20 @@ Main lecture goal:
 Create a new repo, make some commits to it, publish it on github.
 
 ## Use commands:
+```bash
 git init  
 git status  
 git diff  
 git add  
 git commit -m "Consice and explanatory message."  
 git log
+```
 
 git push (publish to github)  
 
-modify file  
+Then modify a file and go through these commands again.  
 
+```bash
 git status  
 git diff  
 git add  
@@ -43,11 +46,12 @@ git push (to github, use github desktop)
 git branch
 git branch --list
 
-git branch new_branch_name
-git checkout branch_name
+git branch new_branch_name  
+git checkout branch_name  
+```
 
-show gitk
-show git-gui
+
+Also show the usage of gitk, git-gui, github desktop.
 
 ## Understand the meaning of what happens when working on a branch.
 "The working tree and the index are updated to match the branch. All new commits will be added to the tip of this branch."
@@ -100,8 +104,6 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests
 
 5) create a .gitignore file [next to .git](https://stackoverflow.com/a/19098654)
 
-```  
-
+```bash
 type nul > .gitignore   
-
 ```
