@@ -95,3 +95,10 @@ For further reading:
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests
 
 
+5) create a .gitignore file [next to .git](https://stackoverflow.com/a/19098654)
+
+```  
+
+type nul > .gitignore   
+
+```
