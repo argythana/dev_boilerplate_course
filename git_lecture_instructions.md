@@ -85,7 +85,7 @@ Create some test repos, make changes, add changes, commit, push.
 1) After I invite you: Fork my repo locally on your PC. Do this inside a folder called "dev_boilerplate_course"
 
 2) create a new_branch with your your_firstname_lastname_abbrev (use a 4 to 8 letters abbreviation, e.g. thanarg).
-You may use any nick you want to be know us a hacker. e.g. "blue_cat"
+You may use any nick you want to be know as a hacker. e.g. "blue_cat"
 
 Do this inside a folder called: 
 "dev_bp_fork_your_firstname_lastname_abbrev"
