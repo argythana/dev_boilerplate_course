@@ -79,21 +79,24 @@ Create some test repos, make changes, add changes, commit, push.
 
 
 
-### Tasks to absolutely do for successful completion of the course:
+### Tasks to absolutely do for successful completion of the course:  
+Note! For each change that you think is ok, do all the process step by step:   
+**add, commit with message, push**   
+
 1) After I invite you: Fork my repo locally on your PC. Do this inside a folder called `"dev_boilerplate_course"`  
 Read [about repository forks.](https://docs.GitHub.com/en/get-started/quickstart/fork-a-repo)  
 
 2) On your local PC, in the repository fork, create a new branch with your `your_firstname_lastname_abbrev` (use a 4 to 8 letters abbreviation, e.g. `thanarg`).  
 You may use any nick you want to be known as a hacker. e.g. `"blue_cat"`   
 
-Do this inside the forked repository:  
-`"dev_bp_fork_your_firstname_lastname_abbrev"`  
-This will be your branch to work on for the course.
+Do this inside the forked repository.   
+This will be your branch to work on for the course.   
 
+3) Put inside your branch of the repository a new file with questions or comments.   
 
-3) Put inside your branch of the repository a new file with questions or comments.
+4) Do the exercise that is described in the `playground_file.txt`.  
 
-4) Do a pull request so that I include your branch as part of the repo.
+5) Do a pull request so that I include your branch as part of the repo.
 Read [this on pull requests.](https://docs.GitHub.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)  
 
 
