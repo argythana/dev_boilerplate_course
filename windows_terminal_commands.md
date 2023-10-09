@@ -19,4 +19,6 @@ start .
 start ..\..
 
 type nul > filename.txt
+
+echo "Input some randome text at the next line in a file" >> filename.txt
 ```
