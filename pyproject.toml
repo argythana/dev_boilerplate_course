@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dev-boilerplate-course"
+version = "0.1.0"
+description = ""
+authors = ["karavokyrie <karavokyri.e@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "==3.10.10"
+jupyterlab = "^4.0.6"
+pandas = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
