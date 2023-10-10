@@ -1,2 +1,4 @@
 /admin_docs
 *.backup
+.idea
+/.venv
