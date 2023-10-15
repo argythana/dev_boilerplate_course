@@ -2,7 +2,11 @@
 name = "dev-boilerplate-course"
 version = "0.1.0"
 description = ""
+<<<<<<< HEAD
 authors = ["Your Name <you@example.com>"]
+=======
+authors = ["karavokyrie <karavokyri.e@gmail.com>"]
+>>>>>>> ffdf8cf4091703338ecb6cfba945d1a36e9ec77d
 readme = "README.md"
 
 [tool.poetry.dependencies]
