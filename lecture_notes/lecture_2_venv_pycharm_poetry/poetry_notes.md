@@ -32,7 +32,9 @@ Read the [installation docs](https://python-poetry.org/docs/#installing-manually
 
 Then initialize poetry in `dev_boilerplate_course`.
 Read the prompt carefully.  
-Don't set dependencies interactively.
+Don't set dependencies interactively.   
+**Leave author name to empty to avoid conflicts in repo**
+
 
 ```bash
 poetry init
@@ -77,4 +79,6 @@ poetry install
 ```
 
 ## Edit pyproject.toml file
-Use Pycharm or any other editor.  
+Use Pycharm or any other editor.   
+
+**Leave author name to empty to avoid conflicts in repo**
