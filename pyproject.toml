@@ -9,6 +9,9 @@ readme = "README.md"
 python = "==3.10.10"
 jupyterlab = "^4.0.6"
 pandas = "^2.1.1"
+streamlit = "^1.27.2"
+plotly = "^5.17.0"
+jupyter = "^1.0.0"
 
 
 [build-system]
