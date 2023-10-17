@@ -109,3 +109,5 @@ With the command below you create an empty file called `.gitignore` just by usin
 ```bash
 type nul > .gitignore   
 ```
+
+Try this [tool](https://git-school.github.io/visualizing-git/)
