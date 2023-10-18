@@ -2,3 +2,5 @@
 *.backup
 .idea
 /.venv
+src/__pycache__/
+src/.ipynb_checkpoints
