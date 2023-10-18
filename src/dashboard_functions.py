@@ -1,16 +1,24 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from typing import Any
 
 
-datafile = "./data/run4moreProd.activities.csv"
-# TODO!: Show why this is wrong and why we should use the code above.
-# Although it works from my PC and different folders within the project.
+activities_datafile = "./data/run4moreProd.activities.csv"
+
+# TODO!: Show why the code below is wrong and why we should use the code as is above.
+#  Although it works from my PC and different folders within the project.
 # datafile = "C:/Users/tharg/dev_boilerplate_course/src/data/run4moreProd.activities.csv"
 
 
-def csv_from_mongo_to_df(datafile: str) -> pd.DataFrame:
-    """ """
+def csv_from_mongo_to_dfs(datafile: str) -> tuple[Any, pd.DataFrame]:
+    """
+    Read a csv datafile, and return users and activities dataframes grouped by date.
+    Args:
+        datafile: A csv datafile that has all activities' data.
+    Returns:
+        A tuple of two dataframes, users and activities.
+    """
     df = pd.read_csv(datafile)
     assert isinstance(pd.to_datetime(df["createdAt"]).dt.date, object)
     df["date"] = pd.to_datetime(df["createdAt"]).dt.date
@@ -47,7 +55,7 @@ def plot_daily(df: pd.DataFrame) -> st.plotly_chart:
 
 
 def plot_daily_dashboard(datafile: str):
-    df_acts, df_users = csv_from_mongo_to_df(datafile)
+    df_acts, df_users = csv_from_mongo_to_dfs(datafile)
     slider_dates = date_slider(df_acts)
     st.header(df_acts.columns[1].capitalize())
     df_acts = update_df_dates(df_acts, slider_dates)
