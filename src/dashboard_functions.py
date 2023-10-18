@@ -1,16 +1,16 @@
-import pandas
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 
 
-
-#datafile = "./data/run4moreProd.activities.csv"
-#TODO!: Show why this is wrong and why we should use the code above.
+datafile = "./data/run4moreProd.activities.csv"
+# TODO!: Show why this is wrong and why we should use the code above.
 # Although it works from my PC and different folders within the project.
-datafile = "C:/Users/tharg/dev_boilerplate_course/src/data/run4moreProd.activities.csv"
+# datafile = "C:/Users/tharg/dev_boilerplate_course/src/data/run4moreProd.activities.csv"
 
-def csv_from_mongo_to_df(datafile):
+
+def csv_from_mongo_to_df(datafile: str) -> pd.DataFrame:
+    """ """
     df = pd.read_csv(datafile)
     assert isinstance(pd.to_datetime(df["createdAt"]).dt.date, object)
     df["date"] = pd.to_datetime(df["createdAt"]).dt.date
