@@ -40,7 +40,7 @@ Get first basic understanding of the following:
 1) Use a new jupyter notebook to:    
 a) sum activities distance by date.  
 b) Create a plotly chart for this.  
-c) Create a plotly app for this chart.  
+c) Create a streamlit app for this chart.  
 Do this cell after cell in many single line commands.    
 
 2) Define new different functions to do all this a new `.py` file.  
