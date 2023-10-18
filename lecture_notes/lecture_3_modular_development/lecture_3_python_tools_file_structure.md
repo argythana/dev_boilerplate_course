@@ -41,9 +41,9 @@ Get first basic understanding of the following:
 a) sum activities distance by date.  
 b) Create a plotly chart for this.  
 c) Create a streamlit app for this chart.  
-Do this cell after cell in many single line commands.    
+Do this, cell after cell, in many single line commands.    
 
-2) Define new different functions to do all this a new `.py` file.  
-And in the end a function that calls all these function and creates the streamlit app.  
+2) Define new different functions to do all this in a new `.py` file.  
+And in the end, define a function that calls all these functions and creates the streamlit app.  
 
 3) Create a different file to run and create the streamlit app in few lines of code.
