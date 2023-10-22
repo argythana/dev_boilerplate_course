@@ -12,7 +12,13 @@ pandas = "^2.1.1"
 streamlit = "^1.27.2"
 plotly = "^5.17.0"
 jupyter = "^1.0.0"
+<<<<<<< HEAD
 ruff = "^0.1.0"
+=======
+black = "^23.10.0"
+ruff = "^0.1.0"
+urllib3 = "2.0.7"
+>>>>>>> b9481242cf1a017deb95e749d7e3ffc705838314
 
 
 [build-system]

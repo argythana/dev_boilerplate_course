@@ -1,4 +1,4 @@
-## File with basic commands for windows terminal
+.## File with basic commands for Windows terminal
 
 Learn what these commands do. Try then in the Command Line.
 
@@ -20,5 +20,9 @@ start ..\..
 
 type nul > filename.txt
 
-echo "Input some randome text at the next line in a file" >> filename.txt
+echo "Input some random text at the next line in a file" >> filename.txt
 ```
+
+Remember:  
+A single dot `.` means the current directory.  
+Two dots `..` mean the directory "above".
