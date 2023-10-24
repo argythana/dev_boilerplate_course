@@ -34,7 +34,7 @@ def csv_from_mongo_to_dfs(datafile: str) -> tuple[Any, pd.DataFrame]:
     # place date column as first column
     date = df.pop("date")
     df.insert(loc=0, column="date", value=date)
-    df_acts = df.groupby("date").size().to_frame(name="activities").reset_index()
+    df_acts = df.groupby("date")["distance"].sum().to_frame(name="activities").reset_index()
     df_users = df.groupby("date")["user_id"].nunique().reset_index()
     df_users.rename(columns={"user_id": "users"}, inplace=True)
     return df_acts, df_users
