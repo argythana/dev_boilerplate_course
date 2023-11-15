@@ -1,7 +1,7 @@
 What is SSH.  
 Create SSH key.  
 Add public key on github.  
-[Extenive guides](https://stackoverflow.com/questions/2643502/git-how-to-solve-permission-denied-publickey-error-when-using-git)  
+[Extensive guides](https://stackoverflow.com/questions/2643502/git-how-to-solve-permission-denied-publickey-error-when-using-git)  
 Activate ssh agent [guide](https://stackoverflow.com/a/33984258)  and [guide](https://stackoverflow.com/a/17848593)  
 add key to ssh agent hhttps://stackoverflow.com/a/33984258  
 Create [ssh config file to use SSH keys automatically](https://serverfault.com/a/262633).  
