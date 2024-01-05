@@ -26,8 +26,7 @@ Mongo shell commands, Windows CLI mongo commands, python pymongo module.
 
 ### Mongo config
 To see mongo configs:
-`cat /etc/mongodb.conf`    
-`mongo --eval "db.adminCommand( { getParameter: '*' } )"`
+`cat /etc/mongodb.conf`
 
 To see mongo stored files:
 `ls -l /var/lib/mongodb/`
