@@ -5,32 +5,30 @@ It has been created for the University of Athens, Department of Economics, [MSc.
 The course has been created, is being curated and taught by [Thanasis Argyriou, @linkedin](https://www.linkedin.com/in/thanasis-argyriou-06155a94/).  
 
 It is a **crash-course** on development tools, as part of the "Research Methods" seminars at the third semester of the Program.  
-It is meant to provide a quick start for the students to be able to work on their research or work projects.  
-It is not meant to be a complete guide to the tools presented, but rather a guide on principles and foundational concepts with practical examples.  
-The tools presented are used as examples of setting a development environment, not as necessary endorsements of specific tools.    
-The material is presented in the form of a GitHub repository and is also available on e-class: [Research Seminars sub-course](https://eclass.uoa.gr/courses/ECON875/).  
+It is meant to provide a quick start for the students to be able to work on their research/work projects.  
+Not meant to be a complete guide to the tools presented, but rather a guide on principles and foundational concepts with practical examples.  
+The tools presented are used as examples, not as necessary endorsements of specific tools.    
+The material is in the form of a GitHub repository and is also available on e-class: [Research Seminars sub-course](https://eclass.uoa.gr/courses/ECON875/).  
 
-The crash-course assumes excellent knowledge of the following second semester courses:  
+The course assumes excellent knowledge of the following second semester courses:  
 * "[Python for Analytics, Data Science and Machine Learning](https://eclass.uoa.gr/courses/ECON537/)",
 * "[Machine Learning](https://eclass.uoa.gr/courses/ECON608/)"
 
-Necessary prerequisites for the course are:
+Absolutely necessary prerequisites for the course are:
 * creating python virtual environments and installing python packages, 
 * working with Python editors and Jupyter Notebooks, 
 * Markdown language and,
 * Windows (or Linux) Command Line Interface.  
 
-Students are kindly encouraged to register and read the material at their own pace, before the first lecture.  
-The material is presented via four live (3 hours long) seminars and two async lectures.   
+Students are kindly encouraged to register and read the material before the first lecture.  
 
-Each lecture requires 9 hours for self-study and 8 hours for completing the tasks/assignments.  
-At least one week is given between lectures to allow students to practice, complete the tasks and ask questions.   
-The course pace is intensive by design and each lecture requires good working knowledge of all the previous ones.  
-It is not recommended to skip lectures.
-It is kindly recommended to complete the tasks and assignments before each following lecture.
+The material is presented via four live (3 hours long) seminars and two async lectures.  
+Each lecture requires 9 hours for self-study and 8 hours for practice on tasks/assignments.   
+The course pace is intensive by design and each lecture requires good working knowledge of all the previous ones.    
+Therefore, it is kindly recommended to complete the tasks and assignments before each following lecture and attend all lectures.  
 
 In total, there are four live seminars and two (optional) async lectures for more advanced students.  
-Support is provided via the e-class platform, the GitHub repository and on-demand four all six lectures.  
+Support is provided via the e-class platform, the GitHub repository and "on-demand" for all lectures.  
 Announcements are made via the e-class platform.    
 
 **Important things to do before the first lecture:**   
