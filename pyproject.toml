@@ -12,6 +12,8 @@ numpy = "^1.26.3"
 streamlit = "^1.30.0"
 jupyterlab = "^4.0.10"
 plotly = "^5.18.0"
+ruff = "^0.1.13"
+black = "^23.12.1"
 
 
 [build-system]
