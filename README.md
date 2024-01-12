@@ -46,14 +46,14 @@ The course is graded with a final in-person exam on material of the first four l
 At the end of the course, students should be able to:
 * Work on a python virtual environment.
 * Use a version control system like git, manage local and remote repositories and work collectively on a repo.
-* Use a python package manager like poetry to pin python version and package dependencies.
-* Use a python linter like ruff to check code quality.
-* Use a python code formatter like black to format code style.
+* Use a python package manager (poetry) to pin python version and package dependencies.
 * Use a python IDE like PyCharm to develop python code.
-* Use GitHub copilot to help with code suggestions, completions, documentation.
-* Use SQL and SQLAlchemy to interact with relational databases.
+* Integrate and use GitHub copilot to help with code suggestions, completions, documentation.
+* Integrate and use python linter (ruff) and a code formatter (black) to check code quality, syntax and style.
+* Use Streamlit to create interactive web apps.
 * Use MongoDB and pymongo to work on non-relational databases.
-* Combine the tools above to work on a more productive/efficient a python development environment.
+* Use SQL and SQLAlchemy to interact with relational databases.
+* **Combine all the above to work on a more holistic/productive/efficient/comprehensive development environment.**
 
 The tools presented are:  
 
