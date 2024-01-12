@@ -2,7 +2,7 @@
 
 Download and install git from [the official page](https://git-scm.com/)
 
-Download and install GitHub desktop
+Download and install `GitHub desktop`.
 
 
 The source code for Git refers to the program as "the information manager from hell" (from wikipedia)
@@ -30,11 +30,25 @@ git diff
 git add  
 git commit -m "Concise and explanatory message."  
 git log
+git remote    
+done
 ```
 
-git push (publish to GitHub)  
+Show which remote repo is connected to your local repo.  
+
+```bash
+git remote -v
+```
+
+**Show how to connect to remote repo (publish to GitHub) .**  
+```bash 
+git push 
+```
+
+
 
 Then modify a file and go through these commands again.  
+
 
 ```bash
 git status  
@@ -104,7 +118,7 @@ Read [this on pull requests.](https://docs.GitHub.com/en/pull-requests/collabora
 
 
 5) create a .gitignore file [next to the `.git` folder](https://stackoverflow.com/a/19098654)  
-With the command below you create an empty file called `.gitignore` just by using only the cli.   
+With the command below you create an empty file called `.gitignore` just by using only the CLI.   
 
 ```bash
 type nul > .gitignore   

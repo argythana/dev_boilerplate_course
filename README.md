@@ -4,37 +4,43 @@ This repository provides a concise presentation of some necessary tools for a da
 It has been created for the University of Athens, Department of Economics, [MSc. in Business Administration, Analytics and Information Systems](https://bis-analytics.econ.uoa.gr/) Postgraduate Program.  
 The course has been created, is being curated and taught by [Thanasis Argyriou, @linkedin](https://www.linkedin.com/in/thanasis-argyriou-06155a94/).  
 
-It is a **crash-course** on development tools, as part of the "Research Methods" seminars at the third semester of the Program.  
-It is meant to provide a quick start for the students to be able to work on their research/work projects.  
-Not meant to be a complete guide to the tools presented, but rather a guide on principles and foundational concepts with practical examples.  
-The tools presented are used as examples, not as necessary endorsements of specific tools.    
+It is a **crash-course** on some necessary development tools, as part of the "Research Methods" seminars of the third semester.    
+This is **not** a complete guide, but rather a quick start tutorial on principles and foundational concepts with practical examples.  
+All tools are used as examples, not as necessary endorsements.    
 The material is in the form of a GitHub repository and is also available on e-class: [Research Seminars sub-course](https://eclass.uoa.gr/courses/ECON875/).  
 
-The course assumes excellent knowledge of the following second semester courses:  
+Excellent working knowledge of the previous second semester courses is assumed:   
 * "[Python for Analytics, Data Science and Machine Learning](https://eclass.uoa.gr/courses/ECON537/)",
 * "[Machine Learning](https://eclass.uoa.gr/courses/ECON608/)"
+* SQL.
 
-Absolutely necessary prerequisites for the course are:
+Necessary prerequisites are:
 * creating python virtual environments and installing python packages, 
 * working with Python editors and Jupyter Notebooks, 
 * Markdown language and,
 * Windows (or Linux) Command Line Interface.  
+* Understanding of basic concepts of relational and non-relational databases.
+* Understanding of basic concepts of working from "relative" or "absolute" OS paths.
 
 Students are kindly encouraged to register and read the material before the first lecture.  
-
-The material is presented via four live (3 hours long) seminars and two async lectures.  
-Each lecture requires 9 hours for self-study and 8 hours for practice on tasks/assignments.   
-The course pace is intensive by design and each lecture requires good working knowledge of all the previous ones.    
-Therefore, it is kindly recommended to complete the tasks and assignments before each following lecture and attend all lectures.  
-
-In total, there are four live seminars and two (optional) async lectures for more advanced students.  
-Support is provided via the e-class platform, the GitHub repository and "on-demand" for all lectures.  
-Announcements are made via the e-class platform.    
-
 **Important things to do before the first lecture:**   
-There are great free resources for students at [GitHub Education](https://education.GitHub.com/). 
-Please explore the offers at the [GitHub student developer pack](https://education.GitHub.com/pack).    
-Please sign up for the [PyCharm IDE](https://www.jetbrains.com/pycharm/), [GitHub copilot](https://github.com/features/copilot/), Digital Ocean credits and Name Cheap domain name.
+There are great free resources for students at [GitHub Education](https://education.GitHub.com/).  
+* Explore the offers at the [GitHub student developer pack](https://education.GitHub.com/pack).    
+* Sign up for a GitHub account.  
+* Install [PyCharm IDE](https://www.jetbrains.com/pycharm/).  
+* Activate [GitHub copilot](https://github.com/features/copilot/).  
+* Register for `Digital Ocean` credits.
+* Get a `Name Cheap` domain name.   
+
+
+The material is presented in four live (3 hours long) seminars and two (optional and advanced) async lectures.     
+Each lecture requires 9 hours for self-study and 8 hours for practice on tasks/assignments.   
+The pace is intensive by design and each lecture requires good working knowledge of all the previous ones.    
+Therefore, it is highly recommended to complete the tasks and assignments before each following lecture and attend all lectures.  
+
+Support is provided on a personal basis via the e-class platform, the GitHub repository and "on-demand" meetings.    
+Announcements are made via the e-class platform.    
+The course is graded with a final in-person exam.
 
 ## Goals:  
 At the end of the course, students should be able to:
@@ -91,10 +97,11 @@ Working on Relational (SQL) Databases with Python. Training on real data and tas
 Use an SQL database with the same data to create a streamlit app.
 1) [SQLAlchemy](https://www.sqlalchemy.org/)
 2) [SQLite](https://www.sqlite.org/index.html)
-3) [PostgreSQL](https://www.postgresql.org/)
+3) [SQLite Python Driver](https://docs.python.org/3/library/sqlite3.html)
+4) [PostgreSQL](https://www.postgresql.org/)
 5) [MySQL](https://www.mysql.com/)
-6) [MySQL Workbench](https://www.mysql.com/products/workbench/)
-7) [MySQL Python Driver](https://dev.mysql.com/doc/connector-python/en/)
+6) [MySQL Python Driver](https://dev.mysql.com/doc/connector-python/en/)
+
 
 ## Asynchronous education (optional, self-paced): Remote linux servers
 Interact from local PC on a Linux Remote Server using the Command line.   
@@ -116,4 +123,3 @@ Deploy a streamlit app on a remote linux server.
 * [Linux Systemd](https://wiki.archlinux.org/title/Systemd)
 
 Thank you very much for your interest and have fun on your journey on programming and data science!  
-As we said in our previous course:  "Coding is very fun, but not as fun as not coding maybe."

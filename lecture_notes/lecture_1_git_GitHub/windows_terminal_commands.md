@@ -1,6 +1,6 @@
-.## File with basic commands for Windows terminal
+## File with basic commands for Windows terminal
 
-Learn what these commands do. Try then in the Command Line.
+Learn what these commands do. Try them in the Command Line.
 
 ```bash
 dir
