@@ -1,6 +1,13 @@
+# Ignore the admin docs folder
 /admin_docs
+# Ignore the markdown files backups
 *.backup
-.idea
-/.venv
+# Ignore python cache files and .pyc files
 src/__pycache__/
+src/*.pyc
+# Ignore all files that end with .ipynb_checkpoints
 src/.ipynb_checkpoints
+# Ignore the .idea (PyCharm setting) folder
+.idea
+# Ignore the virtual environment .venv folder
+/.venv

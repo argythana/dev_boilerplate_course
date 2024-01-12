@@ -1,50 +1,24 @@
-A file to mess around and play.
+A file to mess around, play and learn.
 
 Your first exercise for this course is:   
 
-Add your nickname next to your email after a comma.   
+Add your Name, GitHub username and hackers nickname separated with commas.
+
 Do this from your personal branch, on your local PC fork of the course repository.
 Then do a pull request so that I merge it in the main branch of the GitHub repository.
 
 It's ok if it is difficult, if or you cannot do it.
-You have a special offer for 30 minutes free private class, so that I could help you do it.
-In any case, this is what we will do in the first 30 minutes of the next lecture.
+You have credits for "30 minutes free help" (/jk), so that I could help you do it.
+In any case, this is what we will revise in the first 15 minutes of the next lecture.
 
 
-email, nickname
+Examples:
+=======
 
-argythana@gmail.com, argythana
+Name, GitHub username, hackers nickname
 
-alexandroskapha@gmail.com
+Thanasis Argyriou, argythana, white_hat_cat
+Argyriou Thanasis, argythana, data_dogo
+Boring Teacher, boringteacher, please_don't_fall_asleep_during_class
 
-karavokyrie@econ.uoa.gr, karavokyrielena
-
-xrusatzaf97@gmail.com
-
-tarlaslefteris@gmail.com
-
-konpapanikol@gmail.com
-
-tpaidousi@gmail.com, theapds
-
-savas.xanthopoulos@gmail.com, sxanth
-
-alexandros.miaris@gmail.com
-
-menegakio@gmail.com, Olgameneg 
-
-mmelach@econ.uoa.gr, mmelach
-
-arielaqorri22@hotmail.com
-
-mariannacaramani@hotmail.com
-
-zavramid@econ.uoa.gr, zavramid
-
-sokratisaggelakopoulos@gmail.com, SocratesAgg
-
-ivenetikidis@uoa.gr, John
-
-charalampous.nikolas@gmail.com
-
-dimitrisgeorgakopoulos98@gmail.com, dimigeorg
+** After the end of this course, all entries are being deleted from this file. **
