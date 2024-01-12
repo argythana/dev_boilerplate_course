@@ -1,24 +1,21 @@
-# Learn poetry
+# Learn poetry and the issues of package management in python
 
 ## What is poetry
-Read from the [official site.](https://python-poetry.org/)  
-
+Read from the [official site.](https://python-poetry.org/)
 
 ## Install poetry
-Make sure venv is activated.  
+Make sure venv is you have created activated.  
 First install `setuptools` and `wheel`.  
  ```bash
  (.venv) \path\user\dev_boilerplate_course> pip install --upgrade setuptools wheel
  ````
 
-
-Install poetry with activated virtual environment, using pip.
+Install poetry with activated virtual environment, using pipx.
 ```cmd
-(.venv) \path\user\dev_boilerplate_course> pip install poetry 
+(.venv) \path\user\dev_boilerplate_course> pipx install poetry 
 ```
 
 check if install worked ok:
-
 ```bash
 poetry --version
 ```
@@ -40,7 +37,6 @@ Don't set dependencies interactively.
 poetry init
 ```
 
-
 **Suggestion:**   
 Place in the same directory level the following folders and files:  
 
@@ -53,20 +49,7 @@ pyproject.toml
 poetry.lock
 ```
 
-Your directory should look like this:  
-```
-dev_boilerplate_course
-    ├── pyproject.toml
-    ├── poetry.lock
-    ├── .git
-    │   └── ...
-    ├── .venv
-    │   └── ...
-    ├── .gitignore
-    ├── .idea
-    ├── src
-        └── data
-```
+
 
 ## First commands to know
 Read the [docs](https://python-poetry.org/docs/)

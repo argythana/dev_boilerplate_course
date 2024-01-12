@@ -92,7 +92,7 @@ Use a mongoDB database with the same data and pymongo to create a streamlit app.
 6) [MongoDB Python Driver PyMongo](https://pypi.org/project/pymongo/) 
 
 
-## Asynchronous education (optional, self-paced): SQL tools
+## Lecture 5: Asynchronous education (optional, self-paced): SQL tools
 Working on Relational (SQL) Databases with Python. Training on real data and tasks examples.  
 Use an SQL database with the same data to create a streamlit app.
 1) [SQLAlchemy](https://www.sqlalchemy.org/)
@@ -102,7 +102,7 @@ Use an SQL database with the same data to create a streamlit app.
 5) [PostgreSQL Python Driver](https://www.psycopg.org/psycopg3/docs/)  
 
 
-## Asynchronous education (optional, self-paced): Remote linux servers
+## Lecture 6: Asynchronous education (optional, self-paced): Remote linux servers
 Interact from local PC on a Linux Remote Server using the Command line.   
 Secure access, SSH, install necessary software, create automated system services and timers, manage logs.  
 Deploy a mongoDB database on a remote linux server.  
