@@ -33,14 +33,14 @@ There are great free resources for students at [GitHub Education](https://educat
 * Get a `Name Cheap` domain name.   
 
 
-The material is presented in four live (3 hours long) seminars and two (optional and advanced) async lectures.     
+The material is presented in four live (3 hours long) seminars and two (optional, self-paced and advanced) async lectures.     
 Each lecture requires 9 hours for self-study and 8 hours for practice on tasks/assignments.   
 The pace is intensive by design and each lecture requires good working knowledge of all the previous ones.    
-Therefore, it is highly recommended to complete the tasks and assignments before each following lecture and attend all lectures.  
+Therefore, it is highly recommended to complete the tasks and assignments before each next lecture and attend all lectures.  
 
 Support is provided on a personal basis via the e-class platform, the GitHub repository and "on-demand" meetings.    
 Announcements are made via the e-class platform.    
-The course is graded with a final in-person exam.
+The course is graded with a final in-person exam on material of the first four lectures.
 
 ## Goals:  
 At the end of the course, students should be able to:
@@ -99,8 +99,7 @@ Use an SQL database with the same data to create a streamlit app.
 2) [SQLite](https://www.sqlite.org/index.html)
 3) [SQLite Python Driver](https://docs.python.org/3/library/sqlite3.html)
 4) [PostgreSQL](https://www.postgresql.org/)
-5) [MySQL](https://www.mysql.com/)
-6) [MySQL Python Driver](https://dev.mysql.com/doc/connector-python/en/)
+5) [PostgreSQL Python Driver](https://www.psycopg.org/psycopg3/docs/)  
 
 
 ## Asynchronous education (optional, self-paced): Remote linux servers
@@ -123,3 +122,9 @@ Deploy a streamlit app on a remote linux server.
 * [Linux Systemd](https://wiki.archlinux.org/title/Systemd)
 
 Thank you very much for your interest and have fun on your journey on programming and data science!  
+
+## What next?
+You finished the course with flying colors and enjoyed it?   
+Please check out and contribute to the Run4more [Public Analytics Repository](https://github.com/argythana/r4m_public_demo).   
+It is a baby project in its first steps that is being developed as an "Academy" for working on real data and real tasks from the Run4more StartUp!  
+In the very near future, data from more StartUps will be added and that project will be expanded to a "StartUps Analytics Academy".
