@@ -4,6 +4,7 @@
 *.backup
 # Ignore python cache files and .pyc files
 src/__pycache__/
+*__pycache__
 src/*.pyc
 # Ignore all files that end with .ipynb_checkpoints
 src/.ipynb_checkpoints

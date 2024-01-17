@@ -2,7 +2,6 @@
 
 
 
-
 ### 1. Define functions:
 * Do one thing only. Using *"and"* is **smelly code**.
 * Naming concepts:  
@@ -25,8 +24,17 @@
 * different file to run a project script.
 * Usage of: `if __name__ == "__main__":` statement.
 
-### 3. Project structure: use relative paths and dedicated folders.
+### 3. The type hinting system:
+* [Type Hints: PEP 484](https://www.python.org/dev/peps/pep-0484/)
+* [Variable Annotation: PEP 526](https://www.python.org/dev/peps/pep-0526/)
+* [Function Annotation: PEP 3107](https://www.python.org/dev/peps/pep-3107/)
+
+
+
+### 4. Project structure: use relative paths and dedicated folders.
 * for data input files.
 * to run main script.
 
 ### How to practice:
+Read and run the py and ipynb files in this lecture folder.
+
