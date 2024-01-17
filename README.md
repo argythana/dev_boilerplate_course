@@ -33,7 +33,7 @@ There are great free resources for students at [GitHub Education](https://educat
 * Get a `Name Cheap` domain name.   
 
 
-The material is presented in four live (3 hours long) seminars and two (optional, self-paced and advanced) async lectures.     
+The material is presented in four live (3 hours long) seminars and three (optional, self-paced and advanced) "asynchronous" lectures.     
 Each lecture requires 9 hours for self-study and 8 hours for practice on tasks/assignments.   
 The pace is intensive by design and each lecture requires good working knowledge of all the previous ones.    
 Therefore, it is highly recommended to complete the tasks and assignments before each next lecture and attend all lectures.  
@@ -53,7 +53,8 @@ At the end of the course, students should be able to:
 * Use Streamlit to create interactive web apps.
 * Use MongoDB and pymongo to work on non-relational databases.
 * Use SQL and SQLAlchemy to interact with relational databases.
-* **Combine all the above to work on a more holistic/productive/efficient/comprehensive development environment.**
+* Do all the above on a remote linux server.
+* **Mission Accomplished: Combine all the above to work on a more holistic/productive/efficient/comprehensive development environment.**
 
 The tools presented are:  
 
@@ -73,15 +74,29 @@ Advanced editing combining PyCharm, GitHub copilot, Black, Ruff.
 4) [Python linter and code formatter: Ruff](https://github.com/astral-sh/ruff)
 5) [Python code formatter: Black](https://github.com/psf/black)
 
-## Lecture 3: Modular development: build a Streamlit App
-Interactive web apps with Python. Training on real data and tasks examples.  
-Use a *.csv data file and pandas to create a streamlit app.   
+## Lecture 3: Modular development. User defined functions and "modules".
+Define functions, arguments, parameters, return values, docstrings, type hints.
+1) [Python functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+2) [Python modules](https://docs.python.org/3/tutorial/modules.html)
+3) [Python modules and packages](https://docs.python.org/3/tutorial/modules.html#packages)
+4) The difference between a module and a package.   
+Stackoverflow [answer](https://stackoverflow.com/questions/7948494/whats-the-difference-between-a-python-module-and-a-python-package)
+5) [Python modules and packages: __init__.py](https://docs.python.org/3/tutorial/modules.html#packages)
+6) The `__name__` variable.
+7) The `__main__` variable.
+
+
+## Lecture 4: Building interactive web apps with Python
+Build a basic interactive web apps.   
+Training on real data and tasks examples.  
+Use a *.csv data file and pandas to create a Streamlit app.   
 1) [Streamlit](https://streamlit.io/)
 2) [Streamlit Gallery](https://streamlit.io/gallery)
 3) [Streamlit Documentation](https://docs.streamlit.io/en/stable/)
 4) [Streamlit Cheatsheet](https://docs.streamlit.io/library/cheatsheet)
 
-## Lecture 4: MongoDB tools
+
+## Lecture 5: MongoDB tools (optional, self-paced): Non-Relational Databases
 Non-Relational and schema-less Databases (MongoDB) with Python. Training on real data and tasks examples.  
 Use a mongoDB database with the same data and pymongo to create a streamlit app. 
 1) [MongoDB](https://www.mongodb.com/)
@@ -92,14 +107,7 @@ Use a mongoDB database with the same data and pymongo to create a streamlit app.
 6) [MongoDB Python Driver PyMongo](https://pypi.org/project/pymongo/) 
 
 
-## Lecture 5: Asynchronous education (optional, self-paced): SQL tools
-Working on Relational (SQL) Databases with Python. Training on real data and tasks examples.  
-Use an SQL database with the same data to create a streamlit app.
-1) [SQLAlchemy](https://www.sqlalchemy.org/)
-2) [SQLite](https://www.sqlite.org/index.html)
-3) [SQLite Python Driver](https://docs.python.org/3/library/sqlite3.html)
-4) [PostgreSQL](https://www.postgresql.org/)
-5) [PostgreSQL Python Driver](https://www.psycopg.org/psycopg3/docs/)  
+
 
 
 ## Lecture 6: Asynchronous education (optional, self-paced): Remote linux servers
@@ -122,6 +130,15 @@ Deploy a streamlit app on a remote linux server.
 * [Linux Systemd](https://wiki.archlinux.org/title/Systemd)
 
 Thank you very much for your interest and have fun on your journey on programming and data science!  
+
+## Lecture 7: Asynchronous education (optional, self-paced): SQL tools
+Working on Relational (SQL) Databases with Python. Training on real data and tasks examples.  
+Use an SQL database with the same data to create a streamlit app.
+1) [SQLAlchemy](https://www.sqlalchemy.org/)
+2) [SQLite](https://www.sqlite.org/index.html)
+3) [SQLite Python Driver](https://docs.python.org/3/library/sqlite3.html)
+4) [PostgreSQL](https://www.postgresql.org/)
+5) [PostgreSQL Python Driver](https://www.psycopg.org/psycopg3/docs/)  
 
 ## What next?
 You finished the course with flying colors and enjoyed it?   

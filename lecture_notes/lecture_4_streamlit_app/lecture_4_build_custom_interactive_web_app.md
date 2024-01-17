@@ -1,4 +1,4 @@
-# Lecture 4 Custom python interactive App.
+# Lecture 4 Building interactive web apps with Python.
 
 
 ### Examples with basic usage of `streamlit`.
