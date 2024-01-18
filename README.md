@@ -56,6 +56,20 @@ At the end of the course, students should be able to:
 * Do all the above on a remote linux server.
 * **Mission Accomplished: Combine all the above to work on a more holistic/productive/efficient/comprehensive development environment.**
 
+The exam will be based on the material of the first four lectures.  
+At the exam you will be asked to:  
+* Create a new python project.
+* Create a new python virtual environment.
+* Create a new GitHub repository.
+* Create a new local git repository.
+* Clone the remote repository to your local machine.
+* Create a new python function and module, that will be called from the main script.
+* Create a new python script that will call the function from the module.
+* The script will be run from the command line.
+* The script will create an interactive web app with Streamlit.
+* You will push the code to the remote repository.
+
+
 The tools presented are:  
 
 ## Lecture 1: Version control tools
@@ -144,4 +158,4 @@ Use an SQL database with the same data to create a streamlit app.
 You finished the course with flying colors and enjoyed it?   
 Please check out and contribute to the Run4more [Public Analytics Repository](https://github.com/argythana/r4m_public_demo).   
 It is a baby project in its first steps that is being developed as an "Academy" for working on real data and real tasks from the Run4more StartUp!  
-In the very near future, data from more StartUps will be added and that project will be expanded to a "StartUps Analytics Academy".
+In the very near future, data from more StartUps will be added and the project will be expanded to a "StartUps Analytics Academy".
