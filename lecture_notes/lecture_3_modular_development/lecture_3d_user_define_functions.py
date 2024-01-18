@@ -23,7 +23,11 @@ Arguments (args) = formal parameters, args' values (= parameters' values).
 
 # define function
 def message_simple(message="Python is great"):
-    """Trivial, 1 argument, default value=Python is great\n"""
+    """
+    A simple function with 1 argument and default value.
+    :param message: string
+    :return: None
+    Trivial example, 1 argument, default value=Python is great\n"""
     print(message)
 
 
@@ -41,7 +45,15 @@ message_simple("Python is boring!")
 # define positional args before keyword (else => SyntaxError)
 # output and definition order flexibility
 def message_from_to(sender, receiver, message="Please study\n"):
-    """3 args, 1 default. Assign values to sender, receiver"""
+    """
+    A function with 3 arguments, 2 non-default, 1 default.
+    :param sender: string
+    :param receiver: string
+    :param message: string
+    :return: None
+    Print message from sender to receiver
+    3 args, 1 default. Assign values to sender, receiver
+    """
     print(sender, message, receiver)  # bad order, still works
 
 
@@ -56,6 +68,15 @@ print()
 
 
 def bill(q, items, p):  # no object type specified
+    """
+    Print bill for quantity of items and price.
+    Args:
+        q: Quantity
+        items: Item name
+        p: Price
+    Returns:
+        None
+    """
     total = q * p
     print(f"{q} {items}, cost {total} \n")  # match definition order
 
@@ -68,6 +89,7 @@ bill(3, "books", 10)
 
 # arbitrary number of args *
 def multiply(*my_data):
+    """ Multiply arbitrary number of args"""
     s = 1  # neutral factor
     for n in my_data:
         s *= n

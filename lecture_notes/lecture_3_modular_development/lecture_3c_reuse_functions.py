@@ -12,6 +12,7 @@ date: Dec 2023
 
 # If output to be used elsewhere: => use return statement
 def draft_power(base, expo):
+    """Return base**expo"""
     result = base**expo
     data = (result, base, expo)
     # print(dir()) #local names
@@ -26,6 +27,7 @@ draft_power(2, 3)  # call in interpreter
 
 
 def use_power(to_double):
+    """Use draft_power() to double the result"""
     result = to_double * 2
     print(result)
 
@@ -35,10 +37,10 @@ use_power(to_double=draft_power(2, 5))
 
 
 # uncomment to use functions, put files in same dir
-import lecture_3b_hypot_module
+import lecture_3b_hypot_module  # import module, bad name, just for example
 import song_function
 
-# hypot_module.hypot_calculator()
+# lecture_3b_hypot_module.hypot_calculator()
 ##song_function.generate_song()
 
 
@@ -49,7 +51,8 @@ print()
 
 
 def run_all():
-    hypot_module.hypot_calculator_modular()  # local
+    """Run all functions of this file."""
+    lecture_3b_hypot_module.hypot_calculator_modular()  # local
     song_function.generate_song()  # local
     draft_power(2, 3)  # local
 

@@ -11,7 +11,7 @@
     * Return name.
 * Arguments and Parameters.
 * Type Hints
-* Doc strings
+* function docstring
 * Return
 * Call other functions in a function.
 
