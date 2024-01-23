@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 
-datafile = "./data/run4moreProd.activities.csv"
+datafile = "./../data/run4moreProd.activities.csv"
 
 def csv_from_mongo_to_df(datafile):
     df = pd.read_csv(datafile)

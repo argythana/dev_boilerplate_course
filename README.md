@@ -57,20 +57,20 @@ At the end of the course, students should be able to:
 * **Mission Accomplished: Combine all the above to work on a more holistic/productive/efficient/comprehensive development environment.**
 
 ## Final exam content
-There will be a final 90 minutes exam in the lab,e based on the material of the first four lectures.  
+There will be a final 90 minutes exam in the lab, based on the material of the first four lectures.  
 At the exam you will be asked to:  
 a) use git and GitHub to:
 * Create a new GitHub repository and clone the remote repository to your local machine. 
 * Create a .gitignore and a README markdown file.
 * Push the code to the remote repository as frequently as you deem necessary.  
-> Correct use of Git (2.5 points)  
+> Correct usage of Git (2.5 points)  
 
 b) use venv and poetry to:
 * Create a new python virtual environment.  
 * Install the necessary python packages using poetry.
 * Start a new python project using pyCharm and use the existing virtual environment interpreter.
 * The code should be automatically formatted with black and checked with ruff (integrated with pyCharm).  
-> Correct use of python dev tools (2.5 points)  
+> Correct usage of python dev tools (2.5 points)  
 
 * Create a new python function and module, that will be called from the main script.
 * Create a new python script that will call the function from the module.
@@ -81,7 +81,7 @@ b) use venv and poetry to:
 * Add extra functionality and features to the Streamlit App we created in the App.
 * Add one plot that you think is useful for the data provided.   
   * You may use any python library you like to aggregate or calculate useful metrics for the data.
-> Correct use of streamlit and creation of proper plots (2.5 points)  
+> Correct usage of streamlit and creation of proper plots (2.5 points)  
 
 **Use of AI is mandatory and correct usage of prompting will be part of the exam.**   
 **You are encouraged to use freely any source of info that works best for you.**   
@@ -91,7 +91,8 @@ The three higher grades will be:
 Everyone else who finishes everything at least 15 minutes before the end of the exam will get at least 8.5.
 
 # Lectures Outline
-The lectures material is presented in detail in a separate file: [README_lectures_outline.md](https://github.com/argythana/dev_boilerplate_course/blob/main/README_lectures_outline.md)
+The lectures material is presented in detail in a separate file: [README_lectures_outline.md](https://github.com/argythana/dev_boilerplate_course/blob/main/README_lectures_outline.md)   
+
 Please read the lectures outline before the first lecture.
 * Lecture 1: Version control tools
 * Lecture 2: Python development tools, virtual environment and package management
@@ -105,5 +106,5 @@ Please read the lectures outline before the first lecture.
 Thank you very much for your interest and have fun on your journey on programming and data science!    
 You finished the course with flying colors and enjoyed it?   
 Please check out and contribute to the Run4more [Public Analytics Repository](https://github.com/argythana/r4m_public_demo).    
-It is a baby project in its first steps that is being developed as an "Academy" for working on real data and real tasks from the Run4more StartUp!  
+It is a baby project in its first steps that is being developed as an "Academy" for working on real data and tasks from the Run4more StartUp!  
 In the very near future, data from more StartUps will be added and the project will be expanded to become a "StartUps Analytics Academy".
