@@ -79,6 +79,9 @@ b) use venv and poetry to:
 > Correct project structure (2.5 points)  
 
 * The script will create an interactive web app with Streamlit with the data provided.  
+* Add extra functionality and features to the Streamlit App we created in the App.
+* Add one plot that you think is useful for the data provided.   
+  * You may use any python library you like to aggregate or calculate useful metrics for the data.
 > Correct use of streamlit and creation of proper plots (2.5 points)  
 
 **Use of AI is mandatory and correct usage of prompting will be part of the exam.**   
