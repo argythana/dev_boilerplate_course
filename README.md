@@ -40,8 +40,7 @@ The pace is intensive by design and each lecture requires good working knowledge
 Therefore, it is highly recommended to complete the tasks and assignments before each next lecture and attend all lectures.  
 
 Support is provided on a personal basis via the e-class platform, the GitHub repository and "on-demand" meetings.    
-Announcements are made via the e-class platform.    
-The course is graded with a final in-person exam on material of the first four lectures.
+Announcements are made via the e-class platform.
 
 ## Goals  
 At the end of the course, students should be able to:
@@ -58,9 +57,9 @@ At the end of the course, students should be able to:
 * **Mission Accomplished: Combine all the above to work on a more holistic/productive/efficient/comprehensive development environment.**
 
 ## Final exam content
-The exam will be based on the material of the first four lectures.  
+There will be a final 90 minutes exam in the lab,e based on the material of the first four lectures.  
 At the exam you will be asked to:  
-a) use git and github to:
+a) use git and GitHub to:
 * Create a new GitHub repository and clone the remote repository to your local machine. 
 * Create a .gitignore and a README markdown file.
 * Push the code to the remote repository as frequently as you deem necessary.  
