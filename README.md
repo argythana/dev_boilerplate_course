@@ -43,7 +43,7 @@ Support is provided on a personal basis via the e-class platform, the GitHub rep
 Announcements are made via the e-class platform.    
 The course is graded with a final in-person exam on material of the first four lectures.
 
-## Goals:  
+## Goals  
 At the end of the course, students should be able to:
 * Work on a python virtual environment.
 * Use a version control system like git, manage local and remote repositories and work collectively on a repo.
@@ -60,18 +60,35 @@ At the end of the course, students should be able to:
 ## Final exam content
 The exam will be based on the material of the first four lectures.  
 At the exam you will be asked to:  
-* Create a new python project.
-* Create a new python virtual environment.
-* Create a new GitHub repository.
-* Create a new local git repository.
-* Clone the remote repository to your local machine.
+a) use git and github to:
+* Create a new GitHub repository and clone the remote repository to your local machine. 
+* Create a .gitignore and a README markdown file.
+* Push the code to the remote repository as frequently as you deem necessary.  
+> Correct use of Git (2.5 points)  
+
+b) use venv and poetry to:
+* Create a new python virtual environment.  
+* Install the necessary python packages using poetry.
+* Start a new python project using pyCharm and use the existing virtual environment interpreter.
+* The code should be automatically formatted with black and checked with ruff (integrated with pyCharm).  
+> Correct use of python dev tools (2.5 points)  
+
 * Create a new python function and module, that will be called from the main script.
 * Create a new python script that will call the function from the module.
-* The script will be run from the command line.
-* The script will create an interactive web app with Streamlit.
-* You will push the code to the remote repository.
+* The script will be run from the command line.  
+> Correct project structure (2.5 points)  
 
-The tools presented are:  
+* The script will create an interactive web app with Streamlit with the data provided.  
+> Correct use of streamlit and creation of proper plots (2.5 points)  
+
+**Use of AI is mandatory and correct usage of prompting will be part of the exam.**   
+**You are encouraged to use freely any source of info that works best for you.**   
+Assuming everything delivered is correct, there is an extra checkbox concerning the exam grades:   
+The three higher grades will be:   
+10 for the first one to finish, 9.5 for the second, 9 for the third, *provided that they finish 30 minutes before the end of the exam*.     
+Everyone else who finishes everything at least 20 minutes before the end of the exam will get at least 8.5.
+
+# Lectures material
 
 ## Lecture 1: Version control tools
 Secure Code Development, version control, repository management.
