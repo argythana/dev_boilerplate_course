@@ -9,6 +9,7 @@ This is **not** a complete guide, but rather a quick start tutorial on principle
 All tools are used as examples, not as necessary endorsements.    
 The material is in the form of a GitHub repository and is also available on e-class: [Research Seminars sub-course](https://eclass.uoa.gr/courses/ECON875/).  
 
+## Necessary prerequisites
 Excellent working knowledge of the previous second semester courses is assumed:   
 * "[Python for Analytics, Data Science and Machine Learning](https://eclass.uoa.gr/courses/ECON537/)",
 * "[Machine Learning](https://eclass.uoa.gr/courses/ECON608/)"
@@ -22,6 +23,7 @@ Necessary prerequisites are:
 * Understanding of basic concepts of relational and non-relational databases.
 * Understanding of basic concepts of working from "relative" or "absolute" OS paths.
 
+## Course structure
 Students are kindly encouraged to register and read the material before the first lecture.  
 **Important things to do before the first lecture:**   
 There are great free resources for students at [GitHub Education](https://education.GitHub.com/).  
@@ -31,7 +33,6 @@ There are great free resources for students at [GitHub Education](https://educat
 * Activate [GitHub copilot](https://github.com/features/copilot/).  
 * Register for `Digital Ocean` credits.
 * Get a `Name Cheap` domain name.   
-
 
 The material is presented in four live (3 hours long) seminars and three (optional, self-paced and advanced) "asynchronous" lectures.     
 Each lecture requires 9 hours for self-study and 8 hours for practice on tasks/assignments.   
@@ -56,6 +57,7 @@ At the end of the course, students should be able to:
 * Do all the above on a remote linux server.
 * **Mission Accomplished: Combine all the above to work on a more holistic/productive/efficient/comprehensive development environment.**
 
+## Final exam content
 The exam will be based on the material of the first four lectures.  
 At the exam you will be asked to:  
 * Create a new python project.
@@ -68,7 +70,6 @@ At the exam you will be asked to:
 * The script will be run from the command line.
 * The script will create an interactive web app with Streamlit.
 * You will push the code to the remote repository.
-
 
 The tools presented are:  
 
