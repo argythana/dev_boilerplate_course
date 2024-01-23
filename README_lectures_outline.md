@@ -81,4 +81,4 @@ Thank you very much for your interest and have fun on your journey on programmin
 You finished the course with flying colors and enjoyed it?   
 Please check out and contribute to the Run4more [Public Analytics Repository](https://github.com/argythana/r4m_public_demo).   
 It is a baby project in its first steps that is being developed as an "Academy" for working on real data and real tasks from the Run4more StartUp!  
-In the very near future, data from more StartUps will be added and the project will be expanded to a "StartUps Analytics Academy".
+In the very near future, data from more StartUps will be added and the project will be expanded to to become a "StartUps Analytics Academy".

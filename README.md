@@ -90,11 +90,9 @@ The three higher grades will be:
 10 for the first one to finish, 9.5 for the second, 9 for the third, 8.5 for the fourth, **provided that they finish 15 minutes before the end of the exam**.     
 Everyone else who finishes everything at least 15 minutes before the end of the exam will get at least 8.5.
 
-# Lectures outline
-The lecture outline is presented in detail in a separate file: [README_lectures_outline.md](https://github.com/argythana/dev_boilerplate_course/blob/main/README_lectures_outline.md)   
-
-Please read the lectures outline before the first lecture.  
-
+# Lectures Outline
+The lectures material is presented in detail in a separate file: [README_lectures_outline.md](https://github.com/argythana/dev_boilerplate_course/blob/main/README_lectures_outline.md)
+Please read the lectures outline before the first lecture.
 * Lecture 1: Version control tools
 * Lecture 2: Python development tools, virtual environment and package management
 * Lecture 3: Modular development. User defined functions and "modules".
@@ -108,4 +106,4 @@ Thank you very much for your interest and have fun on your journey on programmin
 You finished the course with flying colors and enjoyed it?   
 Please check out and contribute to the Run4more [Public Analytics Repository](https://github.com/argythana/r4m_public_demo).    
 It is a baby project in its first steps that is being developed as an "Academy" for working on real data and real tasks from the Run4more StartUp!  
-In the very near future, data from more StartUps will be added and the project will be expanded to a "StartUps Analytics Academy".
+In the very near future, data from more StartUps will be added and the project will be expanded to become a "StartUps Analytics Academy".
