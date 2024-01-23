@@ -87,8 +87,8 @@ b) use venv and poetry to:
 **You are encouraged to use freely any source of info that works best for you.**   
 Assuming everything delivered is correct, there is an extra checkbox concerning the exam grades:   
 The three higher grades will be:   
-10 for the first one to finish, 9.5 for the second, 9 for the third, *provided that they finish 30 minutes before the end of the exam*.     
-Everyone else who finishes everything at least 20 minutes before the end of the exam will get at least 8.5.
+10 for the first one to finish, 9.5 for the second, 9 for the third, 8.5 for the fourth, **provided that they finish 15 minutes before the end of the exam**.     
+Everyone else who finishes everything at least 15 minutes before the end of the exam will get at least 8.5.
 
 # Lectures material
 
