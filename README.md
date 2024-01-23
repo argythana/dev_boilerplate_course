@@ -91,22 +91,17 @@ The three higher grades will be:
 Everyone else who finishes everything at least 15 minutes before the end of the exam will get at least 8.5.
 
 # Lectures outline
-The lecture outline is presented in detail in a separate file: [README_lectures_outline.md]()
-Please read the lectures outline before the first lecture.
+The lecture outline is presented in detail in a separate file: [README_lectures_outline.md](https://github.com/argythana/dev_boilerplate_course/blob/main/README_lectures_outline.md)   
 
-## Lecture 1: Version control tools
+Please read the lectures outline before the first lecture.  
 
-## Lecture 2: Python development tools, virtual environment and package management
-
-## Lecture 3: Modular development. User defined functions and "modules".
-
-## Lecture 4: Building interactive web apps with Python
-
-## Lecture 5: MongoDB tools (optional, self-paced): Non-Relational Databases
-
-## Lecture 6: Asynchronous education (optional, self-paced): Remote linux servers
-
-## Lecture 7: Asynchronous education (optional, self-paced): SQL tools
+* Lecture 1: Version control tools
+* Lecture 2: Python development tools, virtual environment and package management
+* Lecture 3: Modular development. User defined functions and "modules".
+* Lecture 4: Building interactive web apps with Python
+* Lecture 5: MongoDB tools (optional, self-paced): Non-Relational Databases
+* Lecture 6: Asynchronous education (optional, self-paced): Remote linux servers
+* Lecture 7: Asynchronous education (optional, self-paced): SQL tools
 
 ## What next?
 Thank you very much for your interest and have fun on your journey on programming and data science!    
