@@ -17,25 +17,44 @@ The advantages of git: https://git-scm.com/about
 Main lecture goals: 
 Create a new repo, make some commits to it, publish it on GitHub.
 
-## Use commands:
+## Getting Started - First-Time Git Setup
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
+Read what each command does from the official documentation and try it.  
+
+## Learn to use the following commands:
 ```bash
 git init  
 git status  
+git remote
 git diff  
 git add  
 git commit -m "Concise and explanatory message."  
 git log
-git remote    
-done
+git remote
+git fetch      
+git push
+git branch  
+git checkout   
+git merge   
 ```
 
-Show which remote repo is connected to your local repo.  
+## Working with [remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+Show which remote repositories are connected to your local repo.  
+```bash
+git remote
+```
 
+Show the link to the repositories that are connected to your local repo.  
 ```bash
 git remote -v
+git remote show origin
 ```
 
-**Show how to connect to remote repo (publish to GitHub) .**  
+**Add a new remote Git repository as a shortname:**
+```bash
+ git remote add <shortname> <url>:
+```
+**Push to remote repo (e.g publish to GitHub)** 
 
 ```bash 
 git push 
@@ -49,7 +68,10 @@ git diff
 git add  
 git commit  
 git push  #(to GitHub, You may use GitHub desktop)  
+```
 
+## Working with branches
+```bash
 git branch
 git branch --list
 
@@ -63,10 +85,10 @@ Try the usage of gitk, git bash, git cli, git GUI, GitHub Desktop with examples.
 "The working tree and the index are updated to match the branch".   
 "All new commits will be added to the tip of this branch."
 
-## Use "Windows file explorer" and switching branch, gitg, gitk, why git works as a "multidimensional parallel universe" (TM) for your files.   
+## Use "Windows file explorer" and switching branch, gitg, gitk.
+git works as a "multidimensional parallel universe" (tm) for your files.   
 
 ## Demonstrate the usage of the .gitignore file
-
 The first .gitignore file should be [next to the `.git` folder](https://stackoverflow.com/a/19098654).
 With the command below you create an empty file called `.gitignore` just by using only the CLI.   
 
@@ -75,7 +97,7 @@ type nul > .gitignore
 ```
 
 Add the following lines to the `.gitignore` file:
-```
+```bash
 # Ignore all files that end with .ipynb_checkpoints
 .ipynb_checkpoints
 # Ignore the virtual environment .venv folder
