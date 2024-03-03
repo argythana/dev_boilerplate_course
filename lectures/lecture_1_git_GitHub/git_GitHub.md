@@ -38,7 +38,12 @@ git checkout
 git merge   
 ```
 
-## Working with [remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+## Explain the different kinds of using git repositories
+* add a remote repo, 
+* clone a repo,
+* fork a repo.
+
+### Working with [remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 Show which remote repositories are connected to your local repo.  
 ```bash
 git remote
@@ -81,7 +86,7 @@ git checkout branch_name
 
 Try the usage of gitk, git bash, git cli, git GUI, GitHub Desktop with examples.   
 
-## Understand the meaning of what happens when working on a branch.
+## Understand the meaning of what happens when working on a different branch.
 "The working tree and the index are updated to match the branch".   
 "All new commits will be added to the tip of this branch."
 
