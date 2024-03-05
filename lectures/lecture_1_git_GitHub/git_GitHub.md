@@ -49,15 +49,18 @@ Show which remote repositories are connected to your local repo.
 git remote
 ```
 
+The `git clone` command implicitly adds the "origin" remote repository.
+
+
 Show the link to the repositories that are connected to your local repo.  
 ```bash
 git remote -v
 git remote show origin
 ```
 
-**Add a new remote Git repository as a shortname:**
+**Add a new remote Git repository that will be names as `repository_name`:**
 ```bash
- git remote add <shortname> <url>:
+ git remote add <repository_name> <url>:
 ```
 **Push to remote repo (e.g publish to GitHub)** 
 
