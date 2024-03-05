@@ -38,6 +38,29 @@ git checkout
 git merge   
 ```
 
+## Initialize a local repo.
+```bash
+git init
+```
+
+By default, Git will create a branch called master when you create a new repository with `git init`.   
+From Git version 2.28 onwards, you can set a different name for the initial branch.  
+To set `main` as the default branch name do:
+
+```bash
+git config --global init.defaultBranch main
+```
+
+To see the configuration of git do:
+```bash
+git config --list
+```
+
+To see where the configuration is stored do and its values do:
+```bash
+git config --show-origin --list
+```
+
 ## Explain the different kinds of using git repositories
 * add a remote repo, 
 * clone a repo,
@@ -50,7 +73,7 @@ git remote
 ```
 
 The `git clone` command implicitly adds the "origin" remote repository.
-
+If you clone a repository a new folder is created with the name of the repository.
 
 Show the link to the repositories that are connected to your local repo.  
 ```bash
@@ -62,7 +85,13 @@ git remote show origin
 ```bash
  git remote add <repository_name> <url>:
 ```
-**Push to remote repo (e.g publish to GitHub)** 
+If you add a remote repository as `origin` then there is no need to specify a repository name.  
+```bash
+git remote add origin git@github.com:argythana/bis_py_course.git
+```
+
+
+## Push to remote repo (e.g publish to GitHub) 
 
 ```bash 
 git push 
