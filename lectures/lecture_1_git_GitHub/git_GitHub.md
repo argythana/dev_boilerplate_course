@@ -5,7 +5,7 @@ Download and install `GitHub desktop`.
 
 The source code for Git refers to the program as *"the information manager from hell"* (wikipedia).
 
-## In the lecture, goals to explain.
+## In the lecture, concepts to explain.
 Main points for using git:
 - a) version control,
 - b) collaboration,
@@ -14,12 +14,28 @@ Main points for using git:
 
 The advantages of git: https://git-scm.com/about
 
-Main lecture goals: 
-Create a new repo, make some commits to it, publish it on GitHub.
+Main lecture goals:  
+Learn the how and why of basic git commands.
+
+Outcome:  
+Create two repositories, one on GitHub and one locally.  
+Understand the various ways of connecting two repositories.
+First way of connecting two repositories:
+* Create a new repo on GitHub,
+* clone the repo locally, 
+* make some commits to it,
+* push changes on GitHub.
+
+Second way of connecting two repositories:
+* Create a new repo locally,
+* make some commits to it,
+* create a repo on GitHub,
+* push changes on GitHub.
+See this process in the [official documentation](https://docs.GitHub.com/en/get-started/quickstart/create-a-repo).
 
 ## Getting Started - First-Time Git Setup
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
-Read what each command does from the official documentation and try it.  
+Read what each command does from the official documentation and try it.
 
 ## Learn to use the following commands:
 ```bash
@@ -56,7 +72,7 @@ To see the configuration of git do:
 git config --list
 ```
 
-To see where the configuration is stored do and its values do:
+To see where the configuration is stored and its values do:
 ```bash
 git config --show-origin --list
 ```
@@ -72,7 +88,7 @@ Show which remote repositories are connected to your local repo.
 git remote
 ```
 
-The `git clone` command implicitly adds the "origin" remote repository.
+The `git clone` command clones a remote repo to your local PC and implicitly adds the "origin" remote repository.
 If you clone a repository a new folder is created with the name of the repository.
 
 Show the link to the repositories that are connected to your local repo.  
@@ -89,9 +105,10 @@ If you add a remote repository as `origin` then there is no need to specify a re
 ```bash
 git remote add origin git@github.com:argythana/bis_py_course.git
 ```
+Github documentation on [adding a remote](https://docs.GitHub.com/en/get-started/quickstart/adding-a-remote).
 
 
-## Push to remote repo (e.g publish to GitHub) 
+## Push changes to remote repo (e.g publish to GitHub) 
 
 ```bash 
 git push 
@@ -122,7 +139,7 @@ Try the usage of gitk, git bash, git cli, git GUI, GitHub Desktop with examples.
 "The working tree and the index are updated to match the branch".   
 "All new commits will be added to the tip of this branch."
 
-## Use "Windows file explorer" and switching branch, gitg, gitk.
+### Use "Windows file explorer" and switching branch, gitg, gitk.
 git works as a "multidimensional parallel universe" (tm) for your files.   
 
 ## Demonstrate the usage of the .gitignore file
@@ -148,7 +165,8 @@ __pycache__
 
 ## After the lecture:
 
-### To study:
+### Read the first three chapters of the official git documentation.
+Pay attention to the following:
 1) Read and try the commands you learned form the [official git documentation:](https://git-scm.com/doc)  
 For example search in the official site: ["git commit"](https://git-scm.com/docs/git-commit)    
 Even better: use the `--help` "switch".  
