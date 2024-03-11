@@ -16,10 +16,29 @@ The advantages of git: https://git-scm.com/about
 
 Main lecture goals:  
 Learn the how and why of basic git commands.
+### Learn to use the following commands:
+```bash
+git init  
+git status  
+git remote
+git diff  
+git add  
+git commit -m "Concise and explanatory message."  
+git log
+git remote
+git fetch      
+git push
+git branch  
+git checkout   
+git merge   
+```
 
-Outcome:  
+
+
+### Outcome:  
 Create two repositories, one on GitHub and one locally.  
-Understand the various ways of connecting two repositories.
+Understand the various ways of connecting two repositories.  
+
 First way of connecting two repositories:
 * Create a new repo on GitHub,
 * clone the repo locally, 
@@ -37,24 +56,9 @@ See this process in the [official documentation](https://docs.GitHub.com/en/get-
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
 Read what each command does from the official documentation and try it.
 
-## Learn to use the following commands:
-```bash
-git init  
-git status  
-git remote
-git diff  
-git add  
-git commit -m "Concise and explanatory message."  
-git log
-git remote
-git fetch      
-git push
-git branch  
-git checkout   
-git merge   
-```
 
-## Initialize a local repo.
+
+## 1) Initialize a local repo.
 ```bash
 git init
 ```
@@ -82,7 +86,7 @@ git config --show-origin --list
 * clone a repo,
 * fork a repo.
 
-### Working with [remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+## 2) Working with [remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 Show which remote repositories are connected to your local repo.  
 ```bash
 git remote
@@ -90,7 +94,15 @@ git remote
 
 The `git clone` command clones a remote repo to your local PC and implicitly adds the "origin" remote repository.
 If you clone a repository a new folder is created with the name of the repository.
+In this case, the command is:  
+```bash
+git clone git@github.com:argythana/dev_boilerplate_course.git
+```
 
+If you chose this method, a new folder with the GitHub repository name will be created in your working directory.  
+
+
+```bash
 Show the link to the repositories that are connected to your local repo.  
 ```bash
 git remote -v
@@ -102,13 +114,17 @@ git remote show origin
  git remote add <repository_name> <url>:
 ```
 If you add a remote repository as `origin` then there is no need to specify a repository name.  
+In this case, the command is:    
+
 ```bash
-git remote add origin git@github.com:argythana/bis_py_course.git
+git remote add origin git@github.com:argythana/dev_boilerplate_course.git
 ```
-Github documentation on [adding a remote](https://docs.GitHub.com/en/get-started/quickstart/adding-a-remote).
+GitHub documentation on [adding a remote](https://docs.GitHub.com/en/get-started/quickstart/adding-a-remote).
 
+If you chose this method, no folder will be created with the GitHub repository name.    
+There will just be a .git folder in your working directory.   
 
-## Push changes to remote repo (e.g publish to GitHub) 
+### Push changes to remote repo (e.g publish to GitHub) 
 
 ```bash 
 git push 
@@ -124,7 +140,7 @@ git commit
 git push  #(to GitHub, You may use GitHub desktop)  
 ```
 
-## Working with branches
+## 3) Working with branches
 ```bash
 git branch
 git branch --list
@@ -135,14 +151,14 @@ git checkout branch_name
 
 Try the usage of gitk, git bash, git cli, git GUI, GitHub Desktop with examples.   
 
-## Understand the meaning of what happens when working on a different branch.
+### Understand the meaning of what happens when working on a different branch.
 "The working tree and the index are updated to match the branch".   
 "All new commits will be added to the tip of this branch."
 
 ### Use "Windows file explorer" and switching branch, gitg, gitk.
 git works as a "multidimensional parallel universe" (tm) for your files.   
 
-## Demonstrate the usage of the .gitignore file
+## 4) Demonstrate the usage of the .gitignore file
 The first .gitignore file should be [next to the `.git` folder](https://stackoverflow.com/a/19098654).
 With the command below you create an empty file called `.gitignore` just by using only the CLI.   
 
