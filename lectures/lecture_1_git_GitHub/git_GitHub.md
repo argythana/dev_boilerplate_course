@@ -1,11 +1,11 @@
-## Before the lecture:
+# A) Before the lecture:
 
 Download and install git from [the official page](https://git-scm.com/)  
 Download and install `GitHub desktop`.
 
 The source code for Git refers to the program as *"the information manager from hell"* (wikipedia).
 
-## In the lecture, concepts to explain.
+# B) In the lecture, concepts to explain.
 Main points for using git:
 - a) version control,
 - b) collaboration,
@@ -30,14 +30,12 @@ git fetch
 git push
 git branch  
 git checkout   
-git merge   
 ```
-
 
 
 ### Outcome:  
 Create two repositories, one on GitHub and one locally.  
-Understand the various ways of connecting two repositories.  
+Understand the various methods of connecting a local and a remote repository.  
 
 First way of connecting two repositories:
 * Create a new repo on GitHub,
@@ -55,7 +53,6 @@ See this process in the [official documentation](https://docs.GitHub.com/en/get-
 ## Getting Started - First-Time Git Setup
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
 Read what each command does from the official documentation and try it.
-
 
 
 ## 1) Initialize a local repo.
@@ -81,13 +78,15 @@ To see where the configuration is stored and its values do:
 git config --show-origin --list
 ```
 
-## Explain the different kinds of using git repositories
-* add a remote repo, 
-* clone a repo,
-* fork a repo.
 
 ## 2) Working with [remote repositories](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 Show which remote repositories are connected to your local repo.  
+
+### Different methods of working with remote repositories
+* add a remote repo,   
+* clone a remote repo,  
+* fork a remote repo.  
+
 ```bash
 git remote
 ```
@@ -102,7 +101,6 @@ git clone git@github.com:argythana/dev_boilerplate_course.git
 If you chose this method, a new folder with the GitHub repository name will be created in your working directory.  
 
 
-```bash
 Show the link to the repositories that are connected to your local repo.  
 ```bash
 git remote -v
@@ -124,7 +122,7 @@ GitHub documentation on [adding a remote](https://docs.GitHub.com/en/get-started
 If you chose this method, no folder will be created with the GitHub repository name.    
 There will just be a .git folder in your working directory.   
 
-### Push changes to remote repo (e.g publish to GitHub) 
+## 3) Push changes to remote repo (e.g publish to GitHub) 
 
 ```bash 
 git push 
@@ -140,7 +138,7 @@ git commit
 git push  #(to GitHub, You may use GitHub desktop)  
 ```
 
-## 3) Working with branches
+## 4) Working with branches
 ```bash
 git branch
 git branch --list
@@ -179,8 +177,9 @@ __pycache__
 *.pyc
 ```
 
-## After the lecture:
+# C) After the lecture:
 
+## Reading
 ### Read the first three chapters of the official git documentation.
 Pay attention to the following:
 1) Read and try the commands you learned form the [official git documentation:](https://git-scm.com/doc)  
@@ -192,7 +191,7 @@ For example: `git init --help`
 
 3) Must read: https://en.wikipedia.org/wiki/Git
 
-
+## Exercises
 ### To practice: 
 Create some test repos, make changes, add changes, commit, push.  
 [How to initialize a git repository](https://docs.GitHub.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-GitHub)  
@@ -206,7 +205,7 @@ Note! For each change that you think is ok, do all the processes step by step:
 **add, commit with message, push**   
 
 1) After I invite you:   
-Clone my repo `locally` on your PC. Do this inside a folder called `"dev_boilerplate_course"`  
+**Clone** my repo `locally` on your PC. Do this inside a folder called `"dev_boilerplate_course"`  
 
 Read about repository cloning.
 Read the difference between repository clones and [repository forks.](https://docs.GitHub.com/en/get-started/quickstart/fork-a-repo)  
@@ -226,4 +225,4 @@ Read [this on pull requests.](https://docs.GitHub.com/en/pull-requests/collabora
 [Further reading on collaborating with pull requests.](https://docs.GitHub.com/en/pull-requests/collaborating-with-pull-requests)
 
 
-7) Create a distinct folder with your GitHub username inside the `src/students_work` folder.  
+6) Create a distinct folder with your GitHub username inside the `src/students_work` folder.  
