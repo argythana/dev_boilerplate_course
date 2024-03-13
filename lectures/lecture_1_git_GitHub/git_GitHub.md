@@ -124,6 +124,12 @@ There will just be a .git folder in your working directory.
 
 ## 3) Push changes to remote repo (e.g publish to GitHub) 
 
+First you need to set the upstream branch.  
+```bash
+```git push --set-upstream origin main
+```
+Then you can push changes to the remote repository.  
+
 ```bash 
 git push 
 ```
