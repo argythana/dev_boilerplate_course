@@ -127,14 +127,18 @@ Then you can "pull" the contents of the repote repo locally and merge the main b
 ```bash
 git pull origin main
 ```
+ and to push:   
 
+```bash
+git push --set-upstream origin main
+```
 ## 3) Push changes to remote repo (e.g publish to GitHub) 
 
 First you need to set the upstream branch.  
 ```bash
 ```git push --set-upstream origin main
 ```
-Then you can push changes to the remote repository.  
+Then you can always push changes to the remote repository.  
 
 ```bash 
 git push 
