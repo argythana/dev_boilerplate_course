@@ -107,7 +107,8 @@ git remote -v
 git remote show origin
 ```
 
-**Add a new remote Git repository that will be names as `repository_name`:**
+**Add a new remote Git repository that will be names as `repository_name`:**   
+In this case you should first initialise and empty repo using `git init`.
 ```bash
  git remote add <repository_name> <url>:
 ```
@@ -121,6 +122,11 @@ GitHub documentation on [adding a remote](https://docs.GitHub.com/en/get-started
 
 If you chose this method, no folder will be created with the GitHub repository name.    
 There will just be a .git folder in your working directory.   
+
+Then you can "pull" the contents of the repote repo locally and merge the main branches:  
+```bash
+git pull origin main
+```
 
 ## 3) Push changes to remote repo (e.g publish to GitHub) 
 
